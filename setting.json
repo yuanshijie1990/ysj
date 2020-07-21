@@ -1,0 +1,124 @@
+{
+  "minapp-vscode.disableAutoConfig": true,
+  "terminal.integrated.rendererType": "dom",
+  "search.followSymlinks": false, // 控制是否在搜索中跟踪符号链接。解决VSCode启动后CPU高占用问题
+  "diffEditor.ignoreTrimWhitespace": false, // 控制在差异编辑器中是否把前导空格或尾随空格的改动显示为差异
+  "typescript.updateImportsOnFileMove.enabled": "always", // 启用或禁用在 VS Code 中重命名或移动文件时自动更新 import 语句的路径。
+  /*  */
+  "element-helper.version": "2.5",
+  "emmet.includeLanguages": {
+      "wxml": "html",
+      "vue": "html"
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true, // 启用或禁用 JavaScript 文件的语义检查。
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false, //函数前加空格
+  /* Npm Intellisense */
+  "npm-intellisense.scanDevDependencies": true,
+  /* Path Autocomplete */
+  "path-autocomplete.pathMappings": {
+      "@/": "${workspaceRoot}/src"
+  },
+  /* editor */
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "editor.fontFamily": "Consolas, 楷体",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all", // 空格变成......
+  /* files */
+  "files.associations": {
+      "*.cjson": "jsonc",
+      "*.wxss": "css",
+      "*.wxs": "javascript",
+      "*.wpy": "vue"
+  },
+  "files.autoSave": "off",
+  "files.exclude": {
+      "**/.git": false,
+      "**/.svn": false,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": false,
+      "**/.factorypath": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/tmp": true,
+      "**/node_modules": false,
+      "**/bower_components": true,
+      // "**/dist": true
+  },
+  /* git */
+  "git.autofetch": true, //html格式化依赖  默认为none
+  /* vetur */
+  "vetur.completion.autoImport": true,
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.ts": "vscode-typescript",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.options.useTabs": false,
+  "vetur.format.defaultFormatterOptions": {
+      "prettier": {
+          // Prettier option here
+          "semi": false
+      },
+      "prettyhtml": {
+          "printWidth": 100, // No line exceeds 100 characters
+          "singleQuote": false // Prefer double quotes over single quotes
+      },
+      "js-beautify-html": {
+          // js-beautify-html settings here
+      }
+  },
+  /*  */
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.zoomLevel": 2,
+  "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.sideBar.location": "left",
+  "breadcrumbs.enabled": true,
+  "editor.hover.delay": 100,
+  "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "rest-client.fontSize": 14,
+  "editor.suggestFontSize": 14,
+  "leetcode.endpoint": "leetcode-cn",
+  "leetcode.workspaceFolder": "e:\\yuan",
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.commentDescription": false
+}
